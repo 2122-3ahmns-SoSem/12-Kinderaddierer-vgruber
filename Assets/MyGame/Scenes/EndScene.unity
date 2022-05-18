@@ -651,7 +651,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &708455705
 MonoBehaviour:
@@ -665,6 +665,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3f2c4374212f5541a71225d31f20073, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ipfKidsName: {fileID: 0}
+  displayKidsName: {fileID: 586984695}
 --- !u!1 &780035397
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,7 +1057,7 @@ Transform:
   m_Children:
   - {fileID: 707378109}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1407104853
 GameObject:
