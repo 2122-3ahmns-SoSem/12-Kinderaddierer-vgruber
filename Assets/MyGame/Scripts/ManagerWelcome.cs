@@ -16,10 +16,9 @@ public enum MyScenes
 
 }
 
-public class Manager : MonoBehaviour
+public class ManagerWelcome : MonoBehaviour
 {
     public TMP_InputField ipfKidsName;
-    public TMP_Text displayKidsName;
 
     private SoRuntimeData runtimeData;
 
@@ -27,26 +26,14 @@ public class Manager : MonoBehaviour
     {
         runtimeData = Resources.Load<SoRuntimeData>("KinderaddiererRuntimeData");
 
-
-        if (SceneManager.GetActiveScene().buildIndex == (int)MyScenes.MathScene)
-        {
-            displayKidsName.text = runtimeData.nameKid;
-        }
     }
 
     //generisch ueber Button 
 
     public void SwitchTheScene(int x)
     {
-        Debug.Log("button pressed, get kidsname " + ipfKidsName.text);
-
-
-        if (SceneManager.GetActiveScene().buildIndex == (int)MyScenes.WelcomeScene)
-        {
-            displayKidsName.text = runtimeData.nameKid;
-        }
-
-        runtimeData.nameKid = ipfKidsName.text;
+        
+         runtimeData.nameKid = ipfKidsName.text;
         SceneManager.LoadScene(x);
     }
 

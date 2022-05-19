@@ -1425,8 +1425,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1719335059}
-        m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+      - m_Target: {fileID: 1719335058}
+        m_TargetAssemblyTypeName: ManagerMath, Assembly-CSharp
         m_MethodName: SwitchTheScene
         m_Mode: 3
         m_Arguments:
@@ -2357,7 +2357,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1719335060}
-  - component: {fileID: 1719335059}
+  - component: {fileID: 1719335058}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2365,7 +2365,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1719335059
+--- !u!114 &1719335058
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2374,11 +2374,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1719335057}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3f2c4374212f5541a71225d31f20073, type: 3}
+  m_Script: {fileID: 11500000, guid: 851f3e0f12af9e14dad82bb834603e69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ipfKidsName: {fileID: 0}
-  displayKidsName: {fileID: 1923624955}
+  displayKid: {fileID: 1923624955}
 --- !u!4 &1719335060
 Transform:
   m_ObjectHideFlags: 0
