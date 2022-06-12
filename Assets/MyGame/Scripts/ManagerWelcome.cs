@@ -24,9 +24,14 @@ public class ManagerWelcome : MonoBehaviour
 
     private SoRuntimeData runtimeData;
 
+    private SoRuntimeChar runtimeChar;
+
+
+
     private void Start()
     {
         runtimeData = Resources.Load<SoRuntimeData>("KinderaddiererRuntimeData");
+        runtimeChar = Resources.Load<SoRuntimeChar>("CharSet");
 
     }
 
@@ -37,6 +42,21 @@ public class ManagerWelcome : MonoBehaviour
 
         runtimeData.nameKid = ipfKid.text;
         SceneManager.LoadScene(x);
+    }
+
+    public void SetCreeper(Sprite x)
+    {
+        runtimeChar.kidsChar = x;
+    }
+
+    public void SetEnder(Sprite x)
+    {
+        runtimeChar.kidsChar = x;
+    }
+
+    public void SetZombie(Sprite x)
+    {
+        runtimeChar.kidsChar = x;
     }
 
 

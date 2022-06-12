@@ -9,14 +9,21 @@ using TMPro;
 public class ManagerEnd : MonoBehaviour
 {
     public TMP_Text displayKid;
+    public SpriteRenderer winSprite;
 
     private SoRuntimeData runtimeData;
+    private SoRuntimeChar runtimeChar;
 
     private void Start()
     {
         runtimeData = Resources.Load<SoRuntimeData>("KinderaddiererRuntimeData");
+        runtimeChar = Resources.Load<SoRuntimeChar>("CharSet");
 
         displayKid.text = runtimeData.nameKid;
+
+        winSprite.sprite = runtimeChar.kidsChar;
+
+
 
     }
 
