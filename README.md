@@ -12,16 +12,17 @@ goal: learn how to add
 
 Scene 1: Save Name & Character for next scences.    InputField   Load Next Scences Unity.SceneManager
 
-Scene 2: 3 Rounds with 4 problems each.             Each round problems get "harder" (random),    Timer,  check results   if 2 problems were solved correctly a point is gained    Load Next Scene    
+Scene 2-4: 3 Rounds with 4 problems each.             Each round problems get "harder" (random),    Timer in the two last scenes,  check results   if 2 problems were solved correctly a point is gained    Load Next Scene  after 4 correct problems(scene 2) or 4 tries scenes(3)
 
-Scene 3: get the name and display it with the gained score. character is present again. menu button to main menu
+Scene 5: get the name and display it with the gained score. character is present again. menu button to main menu
 
 ### Rounds:
 F=fixed V=variable/player input; the numbers are always randomly generated.
 
-R1(round one):	      ladybug displays an addition and you have to tell if it's corect     TRUE | false 
+R1(round one):	      ladybug randomly displays number with dots. Use drag and drop for number displayed.
 
 R2: F+F=V             The problems can be randomly displayed as ladybugs and using drag & drop be put on the ladybug without any dots
+
 
 F+V=F             There is always one which will have to be input either through keyboard input or the dots thorugh drag and drop. 
 
