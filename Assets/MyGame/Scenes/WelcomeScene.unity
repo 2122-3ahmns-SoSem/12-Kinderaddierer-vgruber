@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 780035400}
   - component: {fileID: 780035399}
   m_Layer: 5
-  m_Name: Text
+  m_Name: namText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1292,7 +1292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ipfKidsName: {fileID: 965234303}
-  displayKidsName: {fileID: 780035399}
+  ipfKid: {fileID: 780035399}
 --- !u!1 &1999748824
 GameObject:
   m_ObjectHideFlags: 0

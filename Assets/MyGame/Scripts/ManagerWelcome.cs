@@ -20,6 +20,8 @@ public class ManagerWelcome : MonoBehaviour
 {
     public TMP_InputField ipfKidsName;
 
+    public TMP_Text ipfKid;
+
     private SoRuntimeData runtimeData;
 
     private void Start()
@@ -32,8 +34,8 @@ public class ManagerWelcome : MonoBehaviour
 
     public void SwitchTheScene(int x)
     {
-        
-         runtimeData.nameKid = ipfKidsName.text;
+
+        runtimeData.nameKid = ipfKid.text;
         SceneManager.LoadScene(x);
     }
 

@@ -1155,8 +1155,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ManagerMath, Assembly-CSharp
+      - m_Target: {fileID: 708455705}
+        m_TargetAssemblyTypeName: ManagerEnd, Assembly-CSharp
         m_MethodName: SwitchTheScene
         m_Mode: 3
         m_Arguments:
