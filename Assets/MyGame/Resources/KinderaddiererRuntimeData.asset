@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbf205e326b0544b8bdc60a7b7ed12d, type: 3}
   m_Name: KinderaddiererRuntimeData
   m_EditorClassIdentifier: 
-  nameKid: lmao
+  nameKid: 
