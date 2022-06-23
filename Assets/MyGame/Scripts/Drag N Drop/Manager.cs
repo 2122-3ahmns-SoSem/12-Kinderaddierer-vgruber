@@ -67,8 +67,9 @@ public class Manager : MonoBehaviour
 
     public void SwitchTheScene(int x)
     {
-        if (correct == 4)
+        if (correct == 4 || correct+incorrect==4 || incorrect == 4)
         {
+            runtimeData.scoreKid = correct.ToString(); 
             SceneManager.LoadScene(x);
         }
     }

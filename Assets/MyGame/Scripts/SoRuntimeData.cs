@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class SoRuntimeData : ScriptableObject
 {
     public string nameKid;
+    public string scoreKid;
 
     private void OnEnable()
     {
